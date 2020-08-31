@@ -1,7 +1,12 @@
 import React from 'react'
 
-export default props => 
-    <>
-        <h3>{props.titulo}</h3>
-        <p>{props.subtitulo}</p>
-    </>
+export default (props) => {
+
+    // props.titulo = "Outro titulo";
+    return (
+        <>
+            <h1>{props.titulo}</h1>
+            <h2>{props.subtitulo}</h2>
+        </>
+    )
+}
